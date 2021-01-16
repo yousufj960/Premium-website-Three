@@ -1,0 +1,192 @@
+
+/*
+
+           For mobile
+
+*/
+@media screen and (max-width: 600px)
+{   
+    .slicknav_menu{
+    display: block;
+    }
+#Bottom_header
+{
+    height: 1vh;
+}
+    #top_header_area
+    {
+    display: none;
+    }
+    #main_menu ul
+    {
+    display: none;
+    }
+    #Bottom_header .logo {
+    text-align: center;
+    }
+   
+   
+    #slider_area .slider_main{
+
+    width: 90%;
+
+    }
+
+        #contact iframe
+{
+   
+    width:330px;
+    
+}
+
+    #footer ul {
+padding: 0;
+    }
+}
+
+    
+    
+    
+    
+/*
+  For i pad  
+*/
+    
+@media screen and (max-width: 992px)  {
+#scrollUp
+{
+    background: url(image/scroll.png)no-repeat;
+    height: 40px;
+    width: 45px;
+    bottom: 9px;
+    right: 5px;
+    display: inline-block;
+    text-indent: -99999px;
+}
+    #footer   ul li {
+    padding:  0;
+
+}
+    #contact iframe
+{
+    height: 550px;
+    max-width:350px;
+    
+}
+#contact .main_contact
+{
+    padding: 0px 20px;
+    padding-bottom: 50px;
+    margin: 10px 0;
+    
+}
+#top_header_area .Right_side ul 
+    {
+        margin: 0  auto;
+        text-align: right;
+    }
+    
+    #top_header_area .Left_side ul li i{
+        margin: 0 auto;
+    }
+    #top_header_area .Left_side ul 
+    {
+       margin: 0 auto;
+        text-align: left;
+        
+    }
+    
+#top_header_area .Right_side ul li 
+    {
+        display: inline-block;
+        padding: 1px 2px;
+    }
+
+#top_header_area
+    {
+        padding: 9px;
+        font-size: 13px;
+    }
+    
+#top_header_area  .Left_side ul li
+{
+  padding: 0px 8px;
+}
+    
+    #Mid_header .left_side ul {
+      display: none;
+    }
+  #Mid_header .right_side ul {
+      display: none;
+    }
+    #main_menu ul li
+{
+        display: inline-block;
+        margin-right: 05px;
+        position: relative;
+}
+    #main_menu ul li a
+    {
+        font-size: 14px;
+    }
+        .main_text h3
+{
+    font-size: 15px;
+}
+  #footer .child_footer
+{
+  text-align: left;
+    margin-top: 20px;
+    
+    
+}
+      #footer .child_footer li
+{
+  font-size: 14px;
+    
+    
+}
+    #footer p{
+        font-size: 13px;
+    }  
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+/*
+    extra
+*/
+
+@media only screen and (max-width:783px)
+{
+
+#service_area .child_service h5::after
+{
+display: none;
+
+}
+    .main_text h3
+{
+    font-size: 15px;
+}
+
+#top_header_area .Right_side ul 
+    {
+        text-align: center;
+    }
+    #top_header_area .Left_side ul 
+    {
+        text-align: center;
+    }
+}
+}
